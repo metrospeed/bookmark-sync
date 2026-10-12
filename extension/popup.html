@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bookmark Sync</title><link rel="stylesheet" href="styles.css"></head>
+<body class="popup"><header class="brand"><img src="icons/icon48.png" width="38" height="38" alt=""><div><strong>Bookmark Sync</strong><span>Your bookmarks. Your server.</span></div><button class="icon-button" id="settings" aria-label="Open settings" title="Settings">⚙</button></header>
+<main><div class="status-line"><span class="status" id="connection">Not connected</span><span class="private-label">SELF-HOSTED</span></div>
+<h1>Pick up where<br>you left off.</h1><p class="intro">The same bookmarks, wherever you browse.</p>
+<div class="server-card"><span class="card-label">YOUR SERVER</span><strong id="endpoint">Connect your own server</strong><span id="device">This device</span></div>
+<div class="metrics"><div><strong id="count">—</strong><span>Bookmarks</span></div><div><strong id="queue">0</strong><span>Queued changes</span></div></div>
+<div class="last-sync"><span>Last synced</span><strong id="lastSync">No sync yet</strong></div>
+<p class="error" id="statusError" hidden></p><button id="sync" class="primary full" disabled>Sync now</button><p id="notice" class="notice" role="status" hidden></p>
+</main><footer>Stored on a server you control.</footer><script src="ui.js"></script></body></html>
